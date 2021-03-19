@@ -44,7 +44,7 @@ func main()  {
 	)
 
 	if err != nil {
-		log.Panic("Error while declaring queue")
+		log.Panic("Error to declare queue")
 	}
 
 	err = ch.QueueBind(
